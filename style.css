@@ -5,7 +5,7 @@
 
 body {
   font-family: system-ui, sans-serif;
-  background: #0f0f1a;
+  background: #0c1916;
   color: #ffffff;
   margin: 0;
   padding: 0 20px 40px;
@@ -43,7 +43,7 @@ h1 {
 
 /* ---------- Hero text ---------- */
 #header {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 30px auto 10px;
   max-width: 700px;
 }
@@ -68,7 +68,7 @@ h3 {
 .search-icon {
   display: block;
   margin: 30px auto 10px;
-  filter: invert(1);
+  filter: invert(0.5);
 }
 
 h4 {
