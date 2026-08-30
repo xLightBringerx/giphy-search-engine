@@ -7,6 +7,7 @@ body {
   font-family: system-ui, sans-serif;
   min-height: 100vh;
   background: linear-gradient(135deg, #411165, #18322c, #1fd3a9);
+  background-attachment: fixed;
   margin: 0;
   padding: 0 20px 40px;
   text-align: center;
