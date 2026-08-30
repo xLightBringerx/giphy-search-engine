@@ -7,7 +7,6 @@ body {
   font-family: system-ui, sans-serif;
   min-height: 100vh;
   background: linear-gradient(135deg, #411165, #18322c, #1fd3a9);
-  color: #ffffff;
   margin: 0;
   padding: 0 20px 40px;
   text-align: center;
@@ -18,13 +17,26 @@ h1 {
   padding-top: 20px;
   margin-bottom: 10px;
   font-size: 2.5rem;
+  display: inline-block;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #ffee00, #ff3c00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-weight: normal;
-  color: #cccccc;
   margin-bottom: 30px;
   font-size: 1.3rem;
+  background: linear-gradient(135deg, #fff786, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ---------- Top bar with Search / Trending buttons ---------- */
@@ -40,9 +52,12 @@ h2 {
   border: none;
   padding: 0;
   font-size: 16px;
-  color: #ffffff;
   cursor: pointer;
   font-family: inherit;
+  background: linear-gradient(135deg, #ffee00, #ff3c00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .topbar button:hover {
