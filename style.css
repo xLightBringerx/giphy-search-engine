@@ -115,17 +115,16 @@ a:hover {
 
 /* ---------- Results grid (empty for now, fills in with JS) ---------- */
 #results {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 12px;
+  columns: 200px 5;
+  column-gap: 12px;
   max-width: 1000px;
   margin: 30px auto 0;
 }
 
 #results img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
   border-radius: 8px;
   display: block;
+  margin-bottom: 12px;
+  break-inside: avoid;
 }
