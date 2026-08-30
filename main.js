@@ -1,5 +1,4 @@
 // ---------- Setup ----------
-// Replace this with your own Giphy API key
 const API_KEY = "zQpctxZ6kRDDqQMDdQjbdn3QzgAXHaDn";
 const PAGE_SIZE = 24;
 
